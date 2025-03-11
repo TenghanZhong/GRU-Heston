@@ -58,48 +58,6 @@ Traditional option pricing models, such as **Black-Scholes** and **Heston**, oft
 
 ---
 
-## 🔧 **Installation & Usage**  
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/TenghanZhong/tenghanz.github.io.git
-   cd tenghanz.github.io
-   ```  
-2. Install dependencies:  
-   ```bash
-   pip install numpy pandas tushare matplotlib QuantLib torch
-   ```  
-3. Run **data preprocessing & Heston calibration**:  
-   ```bash
-   python data_cleaning.py
-   python heston_calibration.py
-   ```  
-4. Train **GRU model & refine option prices**:  
-   ```bash
-   python train_gru.py
-   python pricing_correction.py
-   ```  
-
----
-
-## 📜 **Repository Structure**  
-
-```plaintext
-📂 tenghanz.github.io/
-│── 📜 README.md               # Project documentation  
-│── 📜 requirements.txt        # Dependencies  
-│── 📂 data/                   # Processed high-frequency ETF option data  
-│── 📂 scripts/                # Core modeling scripts  
-│   │── data_cleaning.py       # Tushare API & data preprocessing  
-│   │── heston_calibration.py  # Heston model calibration  
-│   │── train_gru.py           # GRU model training  
-│   │── pricing_correction.py  # GRU-based pricing adjustment  
-│── 📂 models/                 # Saved model weights  
-│── 📂 results/                # Evaluation & visualization outputs  
-```  
-
----
-
 ## 🏆 **Key Features**  
 
 ✔️ **Full Pipeline**: Data Cleaning → Heston Calibration → GRU Correction  
