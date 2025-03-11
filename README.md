@@ -24,6 +24,7 @@ Traditional option pricing models, such as **Black-Scholes** and **Heston**, oft
 ---
 
 ## 🚀 **Workflow**  
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/b79ac840-06fd-4abe-a0dd-fc8003654582" />
 
 ### **1️⃣ Data Cleaning & Preprocessing**  
 - Collects **high-frequency ETF option data** via **Tushare API**  
